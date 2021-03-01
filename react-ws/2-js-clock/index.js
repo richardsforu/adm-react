@@ -66,9 +66,11 @@ function Clock(props) {
 }
 
 
-// with React class component 
-function Wall() {
+// with React class component  // Component is nothing but a function or a class
 
+// if you are creating a component with a function, then its stateless component
+// if you are creating a component with a class, then its stateful component
+function Wall() { // stateles component
     return (
 
         <div>
@@ -89,6 +91,28 @@ function Wall() {
 
 
 }
+
+class Employee{ // stateful component
+    constructor(id,name,salary){
+        this.id = id
+        this.name =name;
+        this.salary=salary;
+    }
+
+
+    processSalary(){
+        // number of working days shoud take from backend
+        // calaculate salary based on number of working days
+        // salary
+    }
+
+    display(){
+        processSalary();
+        // salary ...
+    }
+}
+
+let e1=new Employee(1,'Praveen',10000);
 
 
 let Sum = (props) => {

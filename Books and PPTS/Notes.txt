@@ -157,7 +157,7 @@ problems/limitations with plain-js ( your-code ) with browser-apis
 
         e.g
 
-        Box, Input,...., <Circle> ,<Product>
+        Box, Input,...., <Circle> ,<Product>,<Select>
 
 
         is HTML element(s) follows component based arch ?  "Yes"
@@ -246,7 +246,8 @@ problems/limitations with plain-js ( your-code ) with browser-apis
 
         
 
-        state ==> component's own data
+        state ==> component's own data / Data what you have
+        props==> Data Gievn by state
 
 
          imp-note :
@@ -312,8 +313,8 @@ problems/limitations with plain-js ( your-code ) with browser-apis
 
 
 
-        1. react.js    from facebook       : v16.12   ( our focus  )
-        2. Angular     from google-team    : v9
+        1. react.js (library)   from facebook       : v16x   ( our focus  )
+        2. Angular  (framework)   from google-team    : v9
         3. Vue.js
         4. Ember.js
         5. Aurelia.js
