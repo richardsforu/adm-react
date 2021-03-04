@@ -20,7 +20,10 @@ const Employees = (props) => {
 
 
         <table className="table">
-            {renderEmployee()}
+            <tbody>
+                {renderEmployee()}
+
+            </tbody>
         </table>
 
 

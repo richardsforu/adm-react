@@ -32,21 +32,16 @@ const Employee = (props) => {
                 <td>{emp.email}</td>
                 <td>{emp.gender}</td>
             </tr>
-
-
-
-
         )
-
     }
 
 
     return (
 
-
-        <tbody>
+        <React.Fragment>
             { renderEmployee()}
-        </tbody>
+        </React.Fragment>
+
 
 
 

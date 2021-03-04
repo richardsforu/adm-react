@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div className="container">
       <h1>Employee APP</h1> <hr/>
-
       <Employees/>
       
     </div>
