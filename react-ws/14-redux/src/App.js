@@ -3,6 +3,7 @@ import {useSelector,useDispatch} from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.css';
 import counterActions from './actions/counterActions';
 import userActions from './actions/userActions';
+import MyComponent from './MyComponent';
 
 const App = () => {
 
@@ -45,9 +46,11 @@ const App = () => {
         </>
      }
 
+    
 
+     <hr/>
 
-
+   <MyComponent/>
 
       
     </div>
